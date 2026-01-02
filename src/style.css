@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+hr {
+    width: 60%;
+    height: auto;
+    justify-self: center;
+}
+
+.container {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.container img {
+    height: 80px;
+    width: auto;
+}
+
+.slogan {
+    justify-self: center;
+}
+
+.sobre-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sobre-sy {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.sobre-sy h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-sy ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.sobre-sy li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.sobre img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.sobre hr {
+    width: 60%;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+}
+
+.divisa {
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid #000000;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer h3 {
+    justify-self: center;
+}
+
+
+
+.faq-title {
+    justify-self: center;
+}
+
+details {
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+
+.faq {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+details {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+.informacoes {
+    color: black;
+    border: 3px solid gray;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding-left: 2px;
+}
+
+.informacoes li {
+    margin-bottom: 10px;
+}
+
+.informacoes {
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.informacoes ul {
+    padding: 15px;
+}
+
+.parceiros-titulos h2 {
+    justify-self: center;
+}
+
+.parceiros-titulos p {
+    font-style: italic;
+    justify-self: center;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.area-parceiros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    max-width: 700px;
+    margin: 28px auto 0;
+    justify-content: center;
+    padding: 12px;
+}
+
+.parceiros-card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1.2);
+    border-radius: 8px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 150px;
+    min-height: 120px;
+    margin: 20px;
+    text-align: center;
+}
+
+.parceiros-card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.parceiros-icons {
+    padding: 2px;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.info-parceiros p {
+    margin: 0px;
+}
